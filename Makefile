@@ -1,4 +1,5 @@
 PIO = python3 -m platformio
+GITHUB = https://github.com/kwaka1208/m5card
 
 # PlatformIOのインストールとバージョン確認
 ready:
@@ -20,3 +21,7 @@ monitor:
 # webサーバ起動
 serve:
 	npx serve web
+
+# GitHubのページを開く
+github:
+	open $(GITHUB)
